@@ -13,3 +13,5 @@ Tony Tam 300177186
 Company name:
 
 Product name and description:
+
+GitHub accounts for each team member
