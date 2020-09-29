@@ -1,4 +1,6 @@
 Repository link: https://github.com/BringBackPluto/BringBackPluto.github.io
+Github page link: https://bringbackpluto.github.io/
+
 Student names and numbers:
 Xiao Yan Liu 300200092
 Alfred Genadri 300170731
