@@ -1,5 +1,6 @@
 Student names and numbers:
 Xiao Yan Liu 300200092
+Alfred Genadri 300170731
 
 
 
