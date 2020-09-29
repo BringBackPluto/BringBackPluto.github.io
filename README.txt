@@ -15,4 +15,5 @@ Company name:
 Product name and description:
 
 GitHub accounts for each team member (usernames):
+EthanLi123456789
 
