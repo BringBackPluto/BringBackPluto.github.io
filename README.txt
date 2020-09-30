@@ -12,4 +12,4 @@ Tony Tam 300177186 https://github.com/TonyTam613
 
 Company name:
 
-Product name and description:
+Product name and description: Lifelong
