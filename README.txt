@@ -3,7 +3,7 @@ Github page link: https://bringbackpluto.github.io/
 
 Student names and numbers:
 Xiao Yan Liu 300200092
-Alfred Genadri 300170731
+Alfred Genadri 300170731: https://github.com/alfredgenadri
 Kian Ashrafganjouei 300173780
 Emile Leonhardt 300193674 https://github.com/eleon079
 Ethan Li 300207486
