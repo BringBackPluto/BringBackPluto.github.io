@@ -2,7 +2,7 @@ Repository link: https://github.com/BringBackPluto/BringBackPluto.github.io
 Github page link: https://bringbackpluto.github.io/
 
 Student names and numbers:
-Xiao Yan Liu 300200092
+Xiao Yan Liu 300200092: https://github.com/Liu-Xiao-Yan
 Alfred Genadri 300170731: https://github.com/alfredgenadri
 Kian Ashrafganjouei 300173780
 Emile Leonhardt 300193674 https://github.com/eleon079
