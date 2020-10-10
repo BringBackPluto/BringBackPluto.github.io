@@ -4,7 +4,7 @@
     <style>
 
         .container a:hover{
-            background-color: greenyellow;
+            background-color: #08af77;
             color: black;
         }
         .container a{
@@ -40,11 +40,47 @@
             margin-bottom: 2%;
             font-size: 40px;
         }
+        .dropdown{
+            float: right;
+            margin: 0px 30px;
+            border-radius: 70%;
+            margin-left: 70px;
+            height: 100%;
+            position: relative;
+        }
+        .dropdownContent{
+            background-color: white;
+            padding: 0;
+            z-index: 1;
+            position: absolute;
+            display: none;
+        }
+        .dropdownContent a{
+            display: block;
+            border-radius: 0%;
+        }
+        .dropbtn{
+            background-color: #55d6aa;
+            color: gray;
+            padding: 20px;
+            font-size: 16px;
+            border: none;
+            display: inline-block;
+            text-transform: uppercase;
+            border-radius: 10%;
+        }
+        .dropdownContent a:hover{
+            background-color: gray;
+        }
+        .dropdown:hover .dropdownContent{
+            display: block;
+        }
+        .dropdown:hover .dropbtn {background-color: #08af77; color: black;}
     </style>
     <body>
     <header style="background: #55d6aa; height: 60px; width: 100%; position: fixed; top: 0">
             <div class = "container" style="width: 80%; margin: 0% 10% auto; height: 100%; position: fixed;">
-                <img src="" alt = "logo">
+                <img src="" alt = "logo" height="60px" width="200px">
                 <nav style = "float: right;">
                     <ul style="margin: 0; padding: 0; list-style: none;">
                         <li><a href="#">Home</a></li>
@@ -52,7 +88,14 @@
                         <li><a href="#">Privacy</a></li>
                         <li><a href="#">News & Updates</a></li>
                         <li><a href="#">Partners</a></li>
-                        <li><a href="#">More</a></li>
+                        <div class="dropdown">
+                            <button class="dropbtn">More</button>
+                            <div class="dropdownContent">
+                                <a href="#">FAQ</a>
+                                <a href="#">Social Media</a>
+                                <a href="#">Login</a>
+                            </div>
+                        </div>
 
                     </ul>
                 </nav>
