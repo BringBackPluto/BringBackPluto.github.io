@@ -40,7 +40,3 @@ body {
    ul li:hover ul li {
     display:contents; 
    }
-
-   .menubar {
-    border-radius:10%;
-   }
