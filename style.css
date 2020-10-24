@@ -15,12 +15,11 @@ body {
     float: left;
     width: 14%;
     height: 31%;
-    background-color: black;
+    background-image: linear-gradient(#050A10,#00547A,#00547A);
     opacity: .8;
     line-height: 200%;
     text-align: center;
     font-size: 100%;
-    
    }
 
    ul li a {
@@ -40,4 +39,8 @@ body {
 
    ul li:hover ul li {
     display:contents; 
+   }
+
+   .menubar {
+    border-radius:10%;
    }
