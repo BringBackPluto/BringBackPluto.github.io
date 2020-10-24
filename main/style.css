@@ -10,6 +10,7 @@ ul {
     padding: 0%;
     list-style: none;
     font-family: arial;
+
 }
 
 ul li {
@@ -17,7 +18,6 @@ ul li {
     width: 14%;
     height: 31%;
     background-image: linear-gradient(#050A10, #00547A, #00547A);
-    opacity: .8;
     line-height: 200%;
     text-align: center;
     font-size: 100%;
@@ -40,4 +40,10 @@ ul li ul li {
 
 ul li:hover ul li {
     display: contents;
+}
+
+.menubar {
+    position: fixed;
+    top: 2%;
+    width: 100%;
 }
