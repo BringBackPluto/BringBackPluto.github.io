@@ -1,0 +1,20 @@
+Look and Feel of LongLife
+----------------------------------------
+The general look of it should be simple, calm and simplistic.
+The website should be welcoming to the user. We will mostly be using colors like light blue, white and black.
+
+
+Colors
+----------------------------------------
+The colors we use should be mostly calm and pleasing, with a hint of energy, mostly light blue possibly with some orange.
+These are our color swatches:
+
+- Orange: #FF8C42
+- Black: #050A10
+- Blue: #00547A
+- White #E8F1F2
+
+Typography
+----------------------------------------
+- Impact (TBD)
+
