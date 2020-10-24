@@ -1,196 +1,39 @@
 <!DOCTYPE html>
-<!-- Tony Tam -->
-<html lang = "en">
-    <title>Lifelong</title>
-    <style>
+<html lang="en">
 
-        .container a:hover{
-            background-color: #08af77;
-            color: black;
-        }
-        .container a{
-            padding: 20px;
-            height: 100%;
-            border-radius: 10%;
-            font-size: 100%;
-            color: gray;
-            text-decoration: none;
-            text-transform: uppercase;
-            position: relative;
-        }
-        .container li{
-            display: inline-block;
-            margin-left: 70px;
-            padding-top: 1.9%;
-        }
-        .post{
-            margin-bottom: 5%;
+<head>
+ <title>Lifelong</title>
+ <link rel="stylesheet" type="text/css" href="style.css">
+ 
+ <meta charset="UTF-8">
+    <meta name="description" content="Parental Control App">
+    <meta name="keywords" content="Parenting, Parental Control, App">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
 
-        }
-        body{
-            color: white;
-            top: 50px;
-            position: relative;
-            background: #222; 
-            margin: 0;
-        }
-        .blogs{
-            margin: 3% 20%;
-        }
-        .title{
-            margin-bottom: 2%;
-            font-size: 40px;
-        }
-        .dropdown{
-            float: right;
-            margin: 0px 30px;
-            border-radius: 70%;
-            margin-left: 70px;
-            height: 100%;
-            position: relative;
-            padding-top: 0.2%;
-        }
-        .dropdownContent{
-            background-color: white;
-            padding: 0;
-            z-index: 1;
-            position: absolute;
-            display: none;
-        }
-        .dropdownContent a{
-            display: block;
-            border-radius: 0%;
-        }
-        .dropbtn{
-            background-color: #55d6aa;
-            color: gray;
-            padding: 20px;
-            font-size: 16px;
-            border: none;
-            display: inline-block;
-            text-transform: uppercase;
-            border-radius: 10%;
-        }
-        .dropdownContent a:hover{
-            background-color: gray;
-        }
-        .dropdown:hover .dropdownContent{
-            display: block;
-        }
-        .dropdown:hover .dropbtn {background-color: #08af77; color: black;}
-    </style>
-    <body>
-    <header style="background: #55d6aa; height: 60px; width: 100%; position: fixed; top: 0">
-            <div class = "container" style="width: 80%; margin: 0% 10% auto; height: 100%; position: fixed;">
-                <img src="" alt = "logo" height="60px" width="200px">
-                <nav style = "float: right;">
-                    <ul style="margin: 0; padding: 0; list-style: none;">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Privacy</a></li>
-                        <li><a href="#">News & Updates</a></li>
-                        <li><a href="#">Partners</a></li>
-                        <div class="dropdown">
-                            <button class="dropbtn">More</button>
-                            <div class="dropdownContent">
-                                <a href="#">FAQ</a>
-                                <a href="#">Social Media</a>
-                                <a href="#">Login</a>
-                            </div>
-                        </div>
+<body>
 
-                    </ul>
-                </nav>
-            </div>
-    </header>
-        <section class = "blogs">
-            <h1 class = "title">
-                <u>Blog</u>
-            </h1>
-            <article class = "post">
-                 <h3>Blog Post 1</h3>
-                 <small>Posted by John. September 3, 2020</small>
-                 <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis ipsam commodi pariatur nulla architecto quos eveniet placeat minima velit aut, atque, dolore ipsum officiis odit earum, doloremque dolores possimus optio.
-                </p>
-            </article>
-            <article class = "post">
-                <h3>Blog Post 2</h3>
-                <small>Posted by Felix. September 3, 2020</small>
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis ipsam commodi pariatur nulla architecto quos eveniet placeat minima velit aut, atque, dolore ipsum officiis odit earum, doloremque dolores possimus optio.
-                </p>
-            </article>
-            <article class = "post">
-                <h3>Blog Post 3</h3>
-                <small>Posted by Sam. September 3, 2020</small>
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis ipsam commodi pariatur nulla architecto quos eveniet placeat minima velit aut, atque, dolore ipsum officiis odit earum, doloremque dolores possimus optio.
-                </p>
-            </article>
-            <article class = "post">
-                <h3>Blog Post 4</h3>
-                <small>Posted by Chris. September 3, 2020</small>
-                <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis ipsam commodi pariatur nulla architecto quos eveniet placeat minima velit aut, atque, dolore ipsum officiis odit earum, doloremque dolores possimus optio.
-                </p>
-            </article>
-            <article class = "post">
-                <h3>Blog Post 4</h3>
-                <small>Posted by Chris. September 3, 2020</small>
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis ipsam commodi pariatur nulla architecto quos eveniet placeat minima velit aut, atque, dolore ipsum officiis odit earum, doloremque dolores possimus optio.
-                </p>
-            </article>
-            <article class = "post">
-                <h3>Blog Post 4</h3>
-                <small>Posted by Chris. September 3, 2020</small>
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis ipsam commodi pariatur nulla architecto quos eveniet placeat minima velit aut, atque, dolore ipsum officiis odit earum, doloremque dolores possimus optio.
-                </p>
-            </article>
-            <article class = "post">
-                <h3>Blog Post 4</h3>
-                <small>Posted by Chris. September 3, 2020</small>
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis ipsam commodi pariatur nulla architecto quos eveniet placeat minima velit aut, atque, dolore ipsum officiis odit earum, doloremque dolores possimus optio.
-                </p>
-            </article>
-            <article class = "post">
-                <h3>Blog Post 4</h3>
-                <small>Posted by Chris. September 3, 2020</small>
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis ipsam commodi pariatur nulla architecto quos eveniet placeat minima velit aut, atque, dolore ipsum officiis odit earum, doloremque dolores possimus optio.
-                </p>
-            </article>
-            <article class = "post">
-                <h3>Blog Post 4</h3>
-                <small>Posted by Chris. September 3, 2020</small>
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis ipsam commodi pariatur nulla architecto quos eveniet placeat minima velit aut, atque, dolore ipsum officiis odit earum, doloremque dolores possimus optio.
-                </p>
-            </article>
-            <article class = "post">
-                <h3>Blog Post 4</h3>
-                <small>Posted by Chris. September 3, 2020</small>
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis ipsam commodi pariatur nulla architecto quos eveniet placeat minima velit aut, atque, dolore ipsum officiis odit earum, doloremque dolores possimus optio.
-                </p>
-            </article>
-            <article class = "post">
-                <h3>Blog Post 4</h3>
-                <small>Posted by Chris. September 3, 2020</small>
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis ipsam commodi pariatur nulla architecto quos eveniet placeat minima velit aut, atque, dolore ipsum officiis odit earum, doloremque dolores possimus optio.
-                </p>
-            </article>
-            <article class = "post">
-                <h3>Blog Post 4</h3>
-                <small>Posted by Chris. September 3, 2020</small>
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis ipsam commodi pariatur nulla architecto quos eveniet placeat minima velit aut, atque, dolore ipsum officiis odit earum, doloremque dolores possimus optio.
-                </p>
-            </article>
-        </section>
-    </body>
+    <ul>
+    <li><a href="#"><img src = "Images/LL.png" alt ="Home" width ="40%" height ="20%"></a></li>
+    <li><a href="#">Features</a>
+    <ul>
+    <li><a href="">Feature 1</a></li>
+    <li><a href="">Feature 2</a></li>
+    <li><a href="">Feature 3</a></li>
+    <li><a href="">Feature 4</a></li>
+    </ul>
+    </li>
+    <li><a href="#">Download</a></li>
+    <li><a href="#">News & Updates</a></li>
+    <li><a href="#">Privacy</a></li>
+    <li><a href="#">Key Partners</a></li>
+    <li><a href="#">Other</a>
+    <ul>
+    <li><a href="">FAQ & Contact-Us</a></li>
+    <li><a href="">Social media</a></li>
+    <li><a href="">Login</a></li>
+    </ul></li>
+    </ul>
+
+</body>
 </html>
