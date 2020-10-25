@@ -15,7 +15,7 @@ ul {
 
 ul li {
     float: left;
-    width: 14%;
+    width: 15%;
     height: 31%;
     background-image: linear-gradient(#050A10, #00547A, #00547A);
     line-height: 200%;
@@ -44,6 +44,22 @@ ul li:hover ul li {
 
 .menubar {
     position: fixed;
-    top: 2%;
+    top: 1%;
+    left: 9%;
     width: 100%;
+}
+
+#nav_bar_logo{
+    padding: 5%;
+    text-align: center;
+}
+
+#background_color{
+    background-image: linear-gradient(#050A10, #00547A, #00547A);
+    position: fixed;
+    top: 1%;
+    left: 1%;
+    width: 8%;
+    height: 9.8%;
+    text-align: center;
 }
