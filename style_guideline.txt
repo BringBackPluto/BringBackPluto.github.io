@@ -1,11 +1,13 @@
 Look and Feel of LongLife
 ----------------------------------------
+
 The general look of it should be simple, calm and simplistic.
 The website should be welcoming to the user. We will mostly be using colors like light blue, white and black.
 
 
 Colors
 ----------------------------------------
+
 The colors we use should be mostly calm and pleasing, with a hint of energy, mostly light blue possibly with some orange.
 These are our color swatches:
 
@@ -14,7 +16,23 @@ These are our color swatches:
 - Blue: #00547A
 - White #E8F1F2
 
+
+Icongraphy 
+----------------------------------------
+We will be using icons that have a simplistic look to match the rest of our website, and that are very easily identifiable.
+
+
 Typography
 ----------------------------------------
-- Impact (TBD)
 
+We will be using the Helvetica font (though we are keeping in considerations the possibility of changing the font)
+
+
+Links
+----------------------------------------
+Links will be easily identifiable with an underline and will also change color when a user hovers over them. (TBD)
+
+
+Bottons
+----------------------------------------
+Our buttons will be using the colors mentioned above. They will change colors when a user hovers above them. They will be flat buttons, not raised buttons (We are considering changing to a different style of button if we feel like another type of design would look better).
