@@ -15,19 +15,11 @@ ul {
 
 ul li {
     float: left;
-    width: 15%;
-    height: 31%;
+    width: 14%;
     background-image: linear-gradient(#050A10, #00547A, #00547A);
     line-height: 200%;
     text-align: center;
     font-size: 100%;
-}
-
-ul li a {
-    text-decoration: none;
-    color: white;
-    display: block;
-    padding: 10%;
 }
 
 ul li a:hover {
@@ -45,22 +37,23 @@ ul li:hover ul li {
 .menubar {
     position: fixed;
     top: 1%;
-    left: 9%;
+    left: 1%;
     width: 100%;
 }
 
-#nav_bar_logo{
-    padding: 5%;
+#logo{
+    width: 100%;
+    line-height: 0%;
+    display: block;
     text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-#background_color{
-    background-image: linear-gradient(#050A10, #00547A, #00547A);
-    position: fixed;
-    top: 1%;
-    left: 1%;
-    width: 8%;
-    height: 9.8%;
-    text-align: center;
+.nav a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10%;
 }
 
