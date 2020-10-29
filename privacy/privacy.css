@@ -4,11 +4,25 @@
 	margin: 0 auto;
 }
 
-.toppage .toppagetext {
+.toppage .toppagediv {
 	position: absolute;
   	bottom: 0;
   	background: #00547A; 
   	opacity: 50%;
   	width: 100%;
   	padding: 100%;
+  	color:black;
+}
+.menubar {
+	z-index:1;
+}
+
+body {
+	margin-left:0%;
+	font-family: Helvetica;
+}
+
+h1 {
+	font-size:600%;
+	margin-bottom:0%;
 }
