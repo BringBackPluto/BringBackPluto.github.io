@@ -6,6 +6,7 @@
  <title>Privacy</title>
  <link rel="stylesheet" type="text/css" href="..\main/style.css">
  <link rel="stylesheet" type="text/css" href="..\privacy/privacy.css">
+ <script src="..\main/main.js"></script>
 	
  <meta charset="UTF-8">
     <meta name="description" content="Parental Control App">
@@ -13,11 +14,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
-<body>
+<body onload="adjustHeight()">
 <div class="menubar">
 <ul>
- <div id="background_color"><a href="#"><div id="nav_bar_logo"><img src="..\Images/LL.png" alt="Logo" width="50%" height="80%"></div></a></div>>
- <li><a href="#">Features</a>
+ <li><a href="#"><div id="logo"><img id= "pic" src="..\Images/LL.png" width="18%" height=18% ></div></a></li>
+ <li class="nav" id="feature"><a href="#">Features</a>
   <ul>
    <li><a href="">Feature 1</a></li>
    <li><a href="">Feature 2</a></li>
@@ -25,11 +26,11 @@
    <li><a href="">Feature 4</a></li>
   </ul>
  </li>
- <li><a href="#">Download</a></li>
- <li><a href="#">News & Updates</a></li>
- <li><a href="#">Privacy</a></li>
- <li><a href="#">Key Partners</a></li>
- <li><a href="#">Other</a>
+ <li class="nav"><a href="#">Download</a></li>
+ <li class="nav"><a href="#">News & Updates</a></li>
+ <li class="nav"><a href="#">Privacy</a></li>
+ <li class="nav"><a href="#">Key Partners</a></li>
+ <li class="nav"><a href="#">Other</a>
    <ul>
    <li><a href="">FAQ & Contact-Us</a></li>
    <li><a href="">Social media</a></li>
@@ -37,7 +38,14 @@
   </ul></li>
 </ul>
 </div>
-<div><div class="toppage"></div><img src ="..\Images/Safe.jpg" alt="Safety" width = "100%" height="20%"></div>
+<div class="toppage">
+	<img src ="..\Images/Safe.jpg" alt="Safety" width = "100%" height="20%">
+	<div class="toppagetext">
+		<p>
+			Testing testing testing testing
+		</p>
+	</div>
+</div>
 
 <h1>
 	Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nisi augue, consequat et augue at, rutrum pharetra odio. Ut massa dolor, fringilla nec sodales vitae, condimentum nec neque. Nunc laoreet nisi leo, ac aliquet neque varius nec. Phasellus quis pulvinar est. Fusce vehicula ligula nec eleifend ornare. Praesent sagittis lectus sed vehicula vehicula. Nulla porttitor finibus dui, non venenatis est tempus at. Aliquam fermentum est vel porttitor vulputate. Aliquam sit amet molestie felis. Mauris et turpis congue, semper augue ut, auctor sapien. Mauris quis facilisis ligula, aliquet efficitur quam.

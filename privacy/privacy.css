@@ -1,6 +1,14 @@
 .toppage {
 	width: 100%;
-	height: 30%;
-	background-color:blue;
-	opacity:50%;
+	position: relative;
+	margin: 0 auto;
+}
+
+.toppage .toppagetext {
+	position: absolute;
+  	bottom: 0;
+  	background: #00547A; 
+  	opacity: 50%;
+  	width: 100%;
+  	padding: 100%;
 }
