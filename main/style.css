@@ -39,6 +39,7 @@ ul li:hover ul li {
     top: 1%;
     left: 1%;
     width: 100%;
+    opacity: 0.8;
 }
 
 #logo{
