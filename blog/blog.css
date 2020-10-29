@@ -5,12 +5,12 @@
 .post{
     padding: 1% 2%;
     margin: 1% 0%;
-    background-color: #00547A;
+    background-image: linear-gradient(#050A10, #00547A, #00547A) ;
     border-radius: 20px;
     color: white;
     border-color: black;
     border-width: 5px;
-    border-style: solid;
+    border-style: transparent;
 }
 
 body{
