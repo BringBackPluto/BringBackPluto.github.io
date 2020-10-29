@@ -9,8 +9,7 @@ ul {
     margin: 0%;
     padding: 0%;
     list-style: none;
-    font-family: Helvetica;
-
+    font-family: 'Open Sans';
 }
 
 ul li {
@@ -19,7 +18,6 @@ ul li {
     background-image: linear-gradient(#050A10, #00547A, #00547A);
     line-height: 200%;
     text-align: center;
-    font-size: 100%;
 }
 
 ul li a:hover {
@@ -40,6 +38,8 @@ ul li:hover ul li {
     left: 1%;
     width: 100%;
     opacity: 0.8;
+    font-weight:700;
+    font-size:130%;
 }
 
 #logo{
