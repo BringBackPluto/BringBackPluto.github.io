@@ -1,8 +1,26 @@
 body {
     background: white;
+    margin-left: 0%;
+    margin-top: 0%;
 }
 
 .background_container{
-    width: 50%;
+    width: 102%;
     height: 0%;
+}
+
+#title{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+
+#vectortemplate{
+    display: block;
+    margin: 0 auto;
+}
+
+#maincontainer{
+    background-color: white;
+
 }
