@@ -6,24 +6,70 @@
 .aboutbodywidth {
   width: 98vw;
   height: 100vh;
+  overflow: auto;
 }
 
 .abouttext1 h2 {
   margin-bottom: 0%;
   margin-top: 2%;
   text-align: left;
-  font-family: Arial;
+  font-family: Helvetica;
   width: 98%;
 }
 
 .aboutimg1 {
+  margin-left: 1%;
+  padding-bottom: 1%;
   padding-right: 2%;
   width: 35vw;
-  min-width: 200px;
+  max-width: 50vh;
+  min-width: 100px;
+  max-height: 75vh;
+
   float: left;
 }
 
 .abouttext1 {
-  text-align: left;
-  font-family: Arial;
+  text-align: justify;
+  font-family: Helvetica;
+  margin-right: 2%;
+}
+
+.aboutsocialmediaiconsrows{
+  height: fit-content;
+  clear: left;
+  display: block;
+  width: 96w;
+  background-color: black;
+  float: none;
+  color: aliceblue;
+  padding-bottom: .5%;
+}
+
+.aboutsocialmediaiconscolums{
+  height: fit-content;
+  width: 100%;
+  display: inline-block;
+}
+
+.abouticonsettings {
+  height: 5vh;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.aboutfollowus {
+  clear: left;
+  display: block;
+  text-align: center;
+  padding-top: .5%;
+  padding-bottom: 1%;
+}
+
+#aboutsocialsimg {
+  text-align:center;
+text-decoration: none;
 }
