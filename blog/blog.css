@@ -1,7 +1,7 @@
-.blogBody {
-    margin: 8% 15%;
+/*.blogBody {
+    margin: 40% 2% 0% 2%;
     text-align: center;
-}
+}*/
 .post{
     padding: 1% 2%;
     margin: 1% 0%;
@@ -14,9 +14,28 @@
 }
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Courier;
 }
 
-a.FullPost{
+.postTitle{
     color: white;
+    font-size: 300%;
+    margin: 2% 2% 1% 2%
+}
+
+h1.title{
+    font-size: 600%;
+    text-align: left;
+}
+
+.blogposts{
+    margin: 41% 4% 0% 4%;
+    text-align: center;
+}
+
+small{
+    font-size: 80%;
+}
+p{
+    font-size: 150%;
 }
