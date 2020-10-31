@@ -1,6 +1,7 @@
 
 .topspacing {
-  height: 100px;
+  padding: 0%;
+  margin: 0%;
 }
 
 .aboutbodywidth {
@@ -72,4 +73,10 @@
 #aboutsocialsimg {
   text-align:center;
 text-decoration: none;
+}
+
+h1 {
+  font-family: Helvetica;
+  font-size: 60px;
+  margin-top: 1vh;
 }
