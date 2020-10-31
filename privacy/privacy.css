@@ -25,4 +25,16 @@ body {
 h1 {
 	font-size:600%;
 	margin-bottom:0%;
+	margin-left:5%;
+}
+h2 {
+	margin-left:5%;
+}
+h3 {
+	margin-left:5%;
+	margin-right:3%;
+}
+p {
+	margin-left:5%;
+	margin-right:3%;
 }
