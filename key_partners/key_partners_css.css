@@ -1,3 +1,59 @@
-/*
-CSS code for key_partners page
-*/
+.clr {
+    clear: both;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    background-image: linear-gradient(to right, #00547A, #050A10);
+    padding: 10px;
+}
+
+#main {
+    float: left;
+    width: 30%;
+    box-sizing: border-box;
+    background-color: #E8F1F2;
+    border-radius: 15px;
+    border: 1px solid;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#sidebar {
+    float: left;
+    width: 90vw;
+    color: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+.topbar {
+    width: 70vw;
+    height: 30vw;
+    margin: 0 auto;
+}
+
+.page_title {
+    margin-left: 0%;
+    font-family: Courier;
+    color: white;
+}
+
+.partner_name {
+    margin-left: 1%;
+    font-family: Courier;
+    color: white;
+}
+
+.line_break {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    background-image: linear-gradient(to right, #00547A, #050A10);
+    padding: 10px;
+}

@@ -1,14 +1,40 @@
 .toppage {
-	width: 100%;
+	width: 200vh;
 	position: relative;
 	margin: 0 auto;
 }
 
-.toppage .toppagetext {
+.toppage .toppagediv {
 	position: absolute;
   	bottom: 0;
   	background: #00547A; 
   	opacity: 50%;
-  	width: 100%;
-  	padding: 100%;
+  	width: 200vh;
+  	padding: 200vh 0% 200vh 0%;
+  	color:black;
+}
+.menubar {
+	z-index:1;
+}
+
+body {
+	margin-left:0%;
+	font-family: Courier;
+}
+
+h1 {
+	font-size:600%;
+	margin-bottom:0%;
+	margin-left:5%;
+}
+h2 {
+	margin-left:5%;
+}
+h3 {
+	margin-left:5%;
+	margin-right:3%;
+}
+p {
+	margin-left:5%;
+	margin-right:3%;
 }
