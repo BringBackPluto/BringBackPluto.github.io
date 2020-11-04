@@ -1,5 +1,4 @@
 
-
 .aboutbodywidth {
   width: 98vw;
   overflow-y: auto;
@@ -76,7 +75,11 @@ text-decoration: none;
 h1 {
   font-family: Helvetica;
   font-size: 60px;
-  margin-top: 1vh;
-  margin-bottom: 1vh;
+  margin-top: 10px;
+  margin-bottom: 0px;
   padding-left: 10px;
+}
+
+#aboutimagediv {
+  overflow: hidden;
 }
