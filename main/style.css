@@ -5,14 +5,14 @@ body {
     background-color: #E8F1F2;
 }
 
-ul {
+.menubar ul {
     margin: 0%;
     padding: 0%;
     list-style: none;
     font-family: Courier;
 }
 
-ul li {
+.menubar ul li {
     float: left;
     width: 14%;
     background-image: linear-gradient(#050A10, #00547A, #00547A);
@@ -20,15 +20,15 @@ ul li {
     text-align: center;
 }
 
-ul li a:hover {
+.menubar ul li a:hover {
     background-color: black;
 }
 
-ul li ul li {
+.menubar ul li ul li {
     display: none;
 }
 
-ul li:hover ul li {
+.menubar ul li:hover ul li {
     display: contents;
 }
 
@@ -39,7 +39,7 @@ ul li:hover ul li {
     width: 100%;
     opacity: 0.8;
     font-weight:700;
-    font-size:130%;
+    font-size:90%;
 }
 
 #logo{
@@ -58,3 +58,9 @@ ul li:hover ul li {
     padding: 10%;
 }
 
+@media screen and (max-width: 1080px) {
+    .menubar ul li:not(:first-child) {display: none;}
+    .menubar ul li{
+      float: bottom;
+    }
+  }

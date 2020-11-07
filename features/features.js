@@ -6,7 +6,7 @@ function makeNavVertical() {
     if (document.getElementById('updates').offsetHeight != document.getElementById('feature').offsetHeight) {
         liElements = document.getElementsByClassName('nav');
         for (var i = 0; i < liElements.length; i++){
-            liElements[i].style.float = 'bottom';
+            liElements[i].style.styleFloat = 'bottom';
         }
     }
 }
