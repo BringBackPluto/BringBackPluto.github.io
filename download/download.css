@@ -1,3 +1,147 @@
-body{
+
+
+.menubar ul {
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
     font-family: Courier;
+}
+
+.menubar ul li {
+    float: left;
+    width: 14%;
+    background-image: linear-gradient(#050A10, #00547A, #00547A);
+    line-height: 200%;
+    text-align: center;
+}
+
+.menubar ul li a:hover {
+    background-color: black;
+}
+
+.menubar ul li ul li {
+    display: none;
+}
+
+.menubar ul li:hover ul li {
+    display: contents;
+}
+
+.menubar {
+    position: fixed;
+    top: 1%;
+    left: 1%;
+    width: 100%;
+    opacity: 0.8;
+    font-weight:700;
+    font-size:90%;
+}
+
+#logo{
+    width: 100%;
+    line-height: 0%;
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10%;
+}
+
+@media screen and (max-width: 1080px) {
+    .menubar ul li:not(:first-child) {display: none;}
+    .menubar ul li{
+      float: bottom;
+    }
+  }
+
+
+body {
+    background: url('') no-repeat;
+    background-size: none;
+    background-color: #e8f1f2;
+
+    margin-left: 1%;
+    overflow-x: hidden;
+}
+
+.intro{
+
+    background-color: #ffffff;
+    padding-top:100px;
+    padding-bottom:150px;
+    padding-left:100px;
+    padding-right:100px;
+
+}
+
+.intro h5{
+    font-size:200%;
+    font-weight:200;
+    line-height: 0;
+}
+
+.intro form{
+    font-size:100%;
+}
+
+.aboutimg1 {
+  padding-bottom: 1%;
+  padding-right: 2%;
+  padding-left: 10px;
+  width: 10vw;
+  max-width: 50vh;
+  min-width: 100px;
+  max-height: 75vh;
+
+  float: right;
+}
+
+
+
+
+
+
+.app-icon{
+    margin-left: 48%;
+        width:65%;
+        height:auto;
+}
+
+.try_app{
+    font-size: 300%;
+    font-weight: 100;
+    letter-spacing:0.01em;
+    word-spacing:0.07em;
+    text-align:center;
+
+line-height: 0;
+}
+
+
+.try_sub{
+    font-weight: 100;
+    color:#5f6368;
+    letter-spacing:0.01em;
+    word-spacing:0.07em;
+    text-align: center;
+}
+
+
+
+.download_sites{
+
+    text-align: center;
+}
+
+.download_sites img{
+    margin-right:20px;
+    margin-left:20px;
+    width:10%;
+    height:auto;
 }
