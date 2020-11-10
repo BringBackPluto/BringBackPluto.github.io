@@ -1,60 +1,103 @@
-body {
-    background: url('') no-repeat;
-    background-size: none;
-    margin-left: 1%;
-    background-color: #E8F1F2;
+body{
+
+    overflow-x: hidden;
 }
 
-ul {
-    margin: 0%;
-    padding: 0%;
-    list-style: none;
-    font-family: Courier;
+.backofthenav {
+  width: 98vw;
+  overflow-y: auto;
+  overflow-x: visible;
 }
 
-ul li {
-    float: left;
-    width: 14%;
-    background-image: linear-gradient(#050A10, #00547A, #00547A);
-    line-height: 200%;
+.backofthenav img{
+    width: 100%
+}
+
+.download{
+    font-size:70px;  
+    line-height: 0;
+
+    margin-top:0.1; 
+    padding-top:0px;
+    padding-bottom: 5px;
+
+}
+
+.intro{
+
+    background-color: #ffffff;
+    padding-top:100px;
+    padding-bottom:150px;
+    padding-left:100px;
+    padding-right:100px;
+
+}
+
+.save{
+    font-size:200%;
+    font-weight:200;
+    line-height: 0;
+}
+
+.intro form{
+    font-size:100%;
+}
+
+.aboutimg1 {
+  padding-bottom: 1%;
+  width: 20vw;
+  max-width: 50vh;
+  min-width: 100px;
+  max-height: 75vh;
+
+  float: right;
+}
+
+.button{
+    background-color:#2f7393;
+    color:#fff;
+    padding:6px 9px;
+    border:none;
+}  
+
+.app-icon{
+    margin-left: 48%;
+    width:65%;
+    height:auto;
+
+    padding-top:100px;
+}
+
+.try_app{
+    font-size: 300%;
+    font-weight: 100;
+    letter-spacing:0.01em;
+    word-spacing:0.07em;
+    text-align:center;
+
+line-height: 0;
+}
+
+
+.try_sub{
+    font-weight: 100;
+    color:#5f6368;
+    letter-spacing:0.01em;
+    word-spacing:0.07em;
     text-align: center;
 }
 
-ul li a:hover {
-    background-color: black;
-}
 
-ul li ul li {
-    display: none;
-}
 
-ul li:hover ul li {
-    display: contents;
-}
+.download_sites{
 
-.menubar {
-    position: fixed;
-    top: 1%;
-    left: 1%;
-    width: 100%;
-    opacity: 0.8;
-    font-weight:700;
-    font-size:130%;
-}
-
-#logo{
-    width: 100%;
-    line-height: 0%;
-    display: block;
     text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
 }
 
-.nav a{
-    text-decoration: none;
-    color: white;
-    display: block;
-    padding: 10%;
+.download_sites img{
+    margin-right:20px;
+    margin-left:20px;
+    width:10%;
+    height:auto;
+    padding-bottom:100px;
 }
-
