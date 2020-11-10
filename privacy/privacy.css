@@ -41,3 +41,51 @@ p {
 	margin-left:5%;
 	margin-right:3%;
 }
+
+ul {
+	margin-left:10%;
+}
+
+form {
+	margin-left:5%;
+}
+
+label {
+	margin-left:6%;
+}
+
+.div2 {
+	width:100%;
+}
+
+.Leftdiv1 {
+	width:50%;
+	height:25%;
+	float:left;
+}
+
+.Rightdiv1 {
+	height:60vh;
+	max-height:60vh;
+	margin-left:50%;
+}
+
+.design {
+	position: relative;
+  	max-width: 800px;
+  	margin: 0 auto;
+}
+
+.design .designdiv {
+	position: absolute;
+ 	bottom: 0;
+  	background: rgb(0, 0, 0); /* Fallback color */
+ 	background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  	color: #f1f1f1;
+  	width: 100%;
+  	padding: 6%;
+}
+
+.design img{
+	vertical-align: middle;
+}
