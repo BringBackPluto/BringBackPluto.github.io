@@ -4,7 +4,7 @@
 }*/
 .post{
     padding: 1% 2%;
-    margin: 5% 0%;
+    margin: 5% 0% 10% 0%;
     background-image: linear-gradient(#050A10, #00547A, #00547A) ;
     border-radius: 25px;
     color: white;
@@ -29,7 +29,7 @@ h1.title{
 }
 
 .blogposts{
-    margin: 41% 4% 0% 4%;
+    margin: 10% 4% 0% 4%;
     text-align: center;
 }
 
