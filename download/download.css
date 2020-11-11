@@ -11,6 +11,8 @@ body{
 }
 
 .backofthenav img{
+    margin-left:0%;
+    padding-bottom: 0px;
     width: 100%
 }
 
