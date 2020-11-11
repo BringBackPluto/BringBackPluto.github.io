@@ -2,7 +2,7 @@
 *{
     box-sizing: border-box;
     font-family: 'Courier New', Courier, monospace;
-    overflow-x: hidden
+
 }
 
 body {
@@ -20,6 +20,7 @@ body {
     font-weight: bold;
     font-size: 350%;
     padding-left: 1em;
+    padding-top: 1em;
 }
 
 /* Features */
@@ -52,6 +53,20 @@ h3 {
     padding: 3em 0 5em 0;
 }
 
+/* Prevents Horizontal Scrolling */
+.full::-webkit-scrollbar, .container::-webkit-scrollbar{
+    display: none; /* Chrome, Safari */
+}
+
+.full, .container{
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+.container a {
+    color: inherit;
+}
+
 .container h3  {
     color: #00547A;
 }
@@ -82,7 +97,6 @@ h3 {
 
 /* Description */
 
-
 .description ul{
 	list-style: none;
 }
@@ -92,7 +106,7 @@ h3 {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 125px 20px;
+	padding: 125px 10px;
 }
 
 #full section h3.title{
@@ -105,16 +119,16 @@ h3 {
 }
 
 #full section p{
-	max-width: 800px;
+	max-width: 600px;
 	text-align: center;
 	margin-bottom: 35px;
 	padding: 0 20px;
     line-height: 2;
 }
 
-ul.grid{
+ul.network{
     padding-top: 50px;
-	width: 100%;
+    width: 100%;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -124,19 +138,19 @@ ul.grid{
     background-color: white;
 }
 
-.description .grid li{
-	padding: 0 25px;
+.description .network li{
+	padding: 0 20px;
 	flex-basis: 33%;
 	text-align: center;
 }
 
-.description .grid li h4{
+.description .network li h4{
 	color: black;
     font-size: 20px;
     margin-bottom: 25px;
 }
 
-.description .grid li p{
+.description .network li p{
 	margin: 0;
     padding-bottom: 50px;
 }
@@ -147,5 +161,3 @@ ul.grid{
     width: 70px;
     
 }
-
-
