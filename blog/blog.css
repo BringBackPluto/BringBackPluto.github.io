@@ -15,6 +15,7 @@
 
 body{
     font-family: Courier;
+    margin-left: 0%;
 }
 
 .postTitle{
@@ -29,7 +30,7 @@ h1.title{
 }
 
 .blogposts{
-    margin: 10% 4% 0% 4%;
+    margin: 40% 4% 0% 4%;
     text-align: center;
 }
 
