@@ -2,94 +2,30 @@
 *{
     box-sizing: border-box;
     font-family: 'Courier New', Courier, monospace;
-
 }
 
 body {
     background: white;
-    margin-left: 0%;
-    margin-top: 0%;
-}
-
-.background_container{
-    width: 200vh;
-    height: 0%;
+    margin: 0;
 }
 
 #title{
     font-weight: bold;
-    font-size: 350%;
-    padding-left: 1em;
-    padding-top: 1em;
-}
-
-/* Features */
-
-#main {
+    font-size: 300%;
+    padding-left: 40px;
+    padding-top: 10px;
     color: black;
-    font-size: 13pt;
-    font-weight: 300;
-    line-height: 1.65;
-}
-
-h3 {
-    font-size: 1.25em;
-    font-weight: 700;
-    line-height: 1.5;
-    margin: 0 0 1em 0;
-}
-
-.flex {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: stretch;
-}
-
-.flex.flex-3 .flex-item {
-    flex-basis: 20%;
-}
-
-.container {
-    padding: 3em 0 5em 0;
 }
 
 /* Prevents Horizontal Scrolling */
-.full::-webkit-scrollbar, .container::-webkit-scrollbar{
+.full::-webkit-scrollbar {
     display: none; /* Chrome, Safari */
 }
 
-.full, .container{
+.full {
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
   }
-
-.container a {
-    color: inherit;
-}
-
-.container h3  {
-    color: #00547A;
-}
-
-.flex-item {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: stretch;
-}
-
-.flex-item.left div:first-child, #main .flex-item.right div:first-child {
-    padding-top: 2em;
-}
-
-.flex-item.left a, .flex-item.right a{
-    text-decoration: none;
-    text-decoration-color: black;
-}
-
-.flex-item.right{
-    padding-left: 20px;
-}
 
 #Recommendations{
     margin: 0 40px 0 40px;
@@ -106,7 +42,7 @@ h3 {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 125px 10px;
+	padding: 50px 10px;
 }
 
 #full section h3.title{
@@ -153,6 +89,7 @@ ul.network{
 .description .network li p{
 	margin: 0;
     padding-bottom: 50px;
+    display: block;
 }
 
 .description img{
@@ -161,3 +98,82 @@ ul.network{
     width: 70px;
     
 }
+
+
+#intro {
+    padding: 12em 0 10em 0;
+    background-image: url('../../images/blueaesthetic.jpg');
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+    #intro h1 {
+        font-size: 3.5em;
+        font-weight: 100;
+        color: #fff;
+        line-height: 1em;
+        margin: 0 0 0.5em 0;
+        padding: 0;
+    }
+
+    #intro p {
+        font-size: 1em;
+        color:white;
+        margin-bottom: 1.75em;
+    }
+
+	p {
+		margin: 0 0 2em 0;
+	}
+
+    @media screen and (max-width: 1280px) {
+
+        #intro {
+            padding: 10em 2em 8em 2em;
+        }
+
+    }
+
+    @media screen and (max-width: 980px) {
+
+        #intro {
+            background-attachment: scroll;
+        }
+
+    }
+
+    @media screen and (max-width: 736px) {
+
+        #intro {
+            padding: 8em 1.5em 6em 1.5em;
+        }
+
+            #intro h1 {
+                font-size: 2.5em;
+            }
+
+            #intro p {
+                font-size: .9em;
+            }
+
+    }
+
+    @media screen and (max-width: 480px) {
+
+        #intro {
+            padding: 6em 1.5em 4em 1.5em;
+        }
+
+    }
+
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+
+        #intro {
+            background-attachment: scroll;
+        }
+
+    }
+
