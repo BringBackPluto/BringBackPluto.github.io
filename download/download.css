@@ -1,7 +1,10 @@
 body{
 
     overflow-x: hidden;
+    font-family: Verdana, sans-serif; margin:0
 }
+
+
 
 .backofthenav {
   width: 98vw;
@@ -10,16 +13,19 @@ body{
 }
 
 .backofthenav img{
+    margin-left:0%;
+    padding-bottom: 0px;
     width: 100%
 }
 
 .download{
-    font-size:70px;  
+    font-size:90px;  
     line-height: 0;
 
-    margin-top:0.1; 
+    margin-top:5.5%; 
     padding-top:0px;
     padding-bottom: 5px;
+    margin-left: 5%;
 
 }
 
