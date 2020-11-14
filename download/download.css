@@ -1,8 +1,10 @@
 body{
 
     overflow-x: hidden;
-    font-family: Courier;
+    font-family: Verdana, sans-serif; margin:0
 }
+
+
 
 .backofthenav {
   width: 98vw;
