@@ -3,6 +3,7 @@
 }
 
 .container {
+    border-radius: 20px;
     width: 100%;
     margin: auto;
     overflow: hidden;
@@ -25,11 +26,11 @@
 
 #sidebar {
     float: left;
-    width: 90vw;
+    width: 85vw;
     color: #fff;
-    padding: 10px;
     box-sizing: border-box;
     font-size: 20px;
+    padding: 10px;
 }
 
 .topbar {
@@ -45,9 +46,11 @@
 }
 
 .partner_name {
+    margin-top: 3%;
     margin-left: 1%;
     font-family: Courier;
     color: white;
+    margin-bottom: 0%;
 }
 
 .line_break {
@@ -56,4 +59,9 @@
     overflow: hidden;
     background-image: linear-gradient(to right, #00547A, #050A10);
     padding: 10px;
+}
+
+#body {
+    margin-left: 3%;
+    margin-right: 3%;
 }
