@@ -20,6 +20,10 @@ function findoutabout() {
   window.open("../features/features.html");
 }
 
+function findoutaboutp() {
+  window.open("../key_partners/key_partners.html");
+}
+
 function downloadpage() {
   window.open("../download/download.html");
 }
@@ -93,3 +97,4 @@ function showSlides(n) {
     }
 
     // ----------------------------------------------------
+

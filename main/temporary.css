@@ -116,6 +116,16 @@
   position: relative;
 }
 
+.imgmeasures22 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../Images/handshake\ image.jpg);
+  height: 100vh;
+  min-height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
 
 /* Slideshow --------------------- */
 
@@ -295,41 +305,6 @@ html {
   background-color: #00547A;
 }
 
-.imgsdiv {
-  width: 33.3%;
-  float: left;
-  height: 250px;
-  margin-bottom: -20px;
-}
-
-.imgsdiv p{
-  line-height: 1.5em;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-.imgsdiv img:hover {
-  transform: scale(1.075);
-}
-
-.imgsdiv img{
-  transition-timing-function: ease-out;
-  transition: transform .2s;
-  border-radius: 50%;
-  border: 2px solid #E8F1f2;
-  box-shadow: 0px 0px 10px #4fc3f7;
-}
-
-#spannames {
-  font-size: large;
-}
-
-#jobdescs {
-  font-size: small;
-  font-weight: lighter;
-  font-style: italic;
-}
-
 /* ------------------------------- */
 
 .h1text p{
@@ -357,8 +332,7 @@ html {
 
 .spacing {
   height: 40px;
-  background-color: #00547A;
-  box-shadow: inset 0px -2px 2px black ;
+  background-color: #050A10;
 }
 
 .part1container button{
@@ -366,21 +340,21 @@ display: inline-block;
 padding: 10px 25px;
 border-radius: 8px;
 border: 2px solid #E8F1F2;
-background-color:  #00547A;
-box-shadow: 0px 0px 5px black;
+background-color:  #050A10;
 color: #E8F1F2;
 text-align: center;
 cursor: pointer;
 font-size: 13px;
+font-weight: bold;
 }
 
 .part1container button:hover{
-color: #00547A;
+color: #E8F1F2;
 border-radius: 8px;
-border: 2px solid #00547A;
-background-color: #E8F1F2;
-box-shadow: 0px 0px 5px black;
-font-size: 13x;
+border: 2px solid yellow;
+background-color: #050A10;
+font-weight: bold;
+font-size: 13px;
 }
 
 .part1container{
@@ -388,16 +362,19 @@ font-size: 13x;
   font-size: 15px;
   color: #e8f1f2;
   text-align: center;
-  background-color: #2a2a72;
-  background-image: linear-gradient( #00547a 30%, #0288d1 100%);
+  background-color:#050A10;
   padding-bottom: 20px;
-  height: 675px;
-  box-shadow: inset 0px 2px 2px black ;
+  max-height: 680px;
+  overflow: auto;
 }
 
-.part1container p{
-  margin-bottom: 20px;
-  padding-bottom: 0px;
+
+.flex-grid{
+  display: flex;
+}
+
+.col2.0{
+  flex: 1;
 }
 
 
@@ -436,19 +413,252 @@ font-size: 13x;
 }
 
 .secondpart a:visited {
-  color: #7c5295;
+  color: #b19cd5;
   background-color: transparent;
   text-decoration: none;
 }
 
 .secondpart a:hover {
-  color: red;
+  color: darkorange;
   background-color: transparent;
   text-decoration: underline;
 }
 
 .secondpart a:active {
-  color: orange;
+  color: red;
   background-color: transparent;
   text-decoration: underline;
+}
+
+#generalfaq{
+  font-size: small;
+  font-weight: bold;
+}
+
+#answerfaq{
+  font-weight: lighter;
+}
+
+/* Main column */
+.main {   
+  background-color: #00547a;
+  padding: 25px ;
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+
+.main h2{
+  padding-top: 25px;
+}
+
+.main h4{
+  padding-top: 10px;
+  padding-bottom: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.main p{   
+  padding-right: 25px;
+  margin-top: 10px;
+}
+
+.main a:link {color: yellow;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.main a:visited {
+  color: #b19cd5;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.main a:hover {
+  color: darkorange;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.main a:active {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+/* Responsive layout - when the screen is less than 900px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 1200px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+.side222 h2{   
+  color: yellow;
+  padding-top: 60px;
+  margin-top: 0px;
+}
+
+/* Sidebar/left column */
+.side111 {
+  -ms-flex: 40%; /* IE10 */
+  flex: 40%;
+  font-size: 15px;
+  color: #e8f1f2;
+  background-color:#050A10;
+  padding: 40px;
+  text-align: center;
+}
+
+.side111 p{
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+
+.side222 img{
+  width: 120px;
+  border-radius: 50%;
+  transition: 0.6s;
+  border: 2px solid white;
+  box-shadow: 0px 0px 5px white;
+}
+
+.side222{
+  background-color: #00547a;
+  -ms-flex: 60%;
+  flex: 60%;
+  padding-bottom: 0px;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Column container */
+.row33 {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+.side222 img:hover{  
+  transform: scale(1.1);
+  border: 2px solid yellow;
+  box-shadow: 0px 0px 15px yellow;
+}
+
+.side331 {
+  -ms-flex: 33.3%; /* IE10 */
+  flex: 33.3%;
+  padding: 0px;
+}
+
+.side332 {
+  -ms-flex: 33.3%; /* IE10 */
+  flex: 33.3%;
+  padding: 0px;
+}
+
+.side333 {
+  -ms-flex: 33.4%; /* IE10 */
+  flex: 33.4%;
+  padding: 0px;
+  padding-right: 5px;
+}
+
+@media screen and (max-width: 675px) {
+  .row33 {   
+    flex-direction: column;
+  }
+}
+
+#spannames {
+  font-size: large;
+  color: yellow;
+  font-weight: bold;
+}
+
+#jobdescs {
+  font-size: small;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.bg5img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url(../Images/happypeople.jpeg);
+  border: solid 2px white;
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Sidebar/left column */
+.side2 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+}
+
+/* Column container */
+.row2 {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.main2 {   
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+}
+
+@media screen and (max-width: 700px) {
+  .row2 {   
+    flex-direction: column;
+  }
+}
+
+.pxspace {
+  height: 3px;
+  background-color: #e8f1f2;
+}
+
+.faqwidth {
+  color: #e8f1f2;
+  background-color: #00547a;
+  overflow:hidden;
+  width: 100%;
+}
+
+.sideimagefaq {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../Images/cityimage2.jpg);
+  position: relative;
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.row3 {
+  display: flex; /* equal height of the children */
+}
+
+.col1 {
+  flex: .4; /* additionally, equal width */
+}
+
+.col2 {
+  flex: .6; /* additionally, equal width */
 }
