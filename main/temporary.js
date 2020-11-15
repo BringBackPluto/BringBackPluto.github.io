@@ -2,7 +2,7 @@
 
 window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
-if (currentScrollPos > 0) {
+if (currentScrollPos > 80) {
     document.getElementById("scrollimg").style.bottom = "-50px"
     document.getElementById("scrollimg").style.opacity = "0,4";
 } else {
