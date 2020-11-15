@@ -13,7 +13,11 @@ if (currentScrollPos > 0) {
 
 
 function moreabout() {
-  window.scrollTo(0,window.innerHeight)
+  window.scrollTo(0,window.innerHeight+70)
+}
+
+function initialscroll() {
+  window.scrollTo(0,40)
 }
 
 function findoutabout() {
