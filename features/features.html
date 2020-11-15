@@ -14,29 +14,34 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
-<body onload="adjustHeight()" onresize="adjustHeight();makeNavVertical()">
+<body>
 
-  <!--
-  <div class="menubar">
-    <ul id='main_container'>
-      <li><a href="#">
-          <div id="logo"><img id="pic" src="..\Images/LL.png" width="18%" height=18%></div>
-        </a></li>
-      <li class="nav" id="feature"><a href="#">Features</a></li>
-      <li class="nav"><a href="#">Download</a></li>
-      <li class="nav" id='updates'><a href="#">News & Updates</a></li>
-      <li class="nav"><a href="#">Privacy</a></li>
-      <li class="nav"><a href="#">Key Partners</a></li>
-      <li class="nav"><a href="#">Other</a>
-        <ul>
-          <li><a href="">FAQ & Contact-Us</a></li>
-          <li><a href="">Social media</a></li>
-          <li><a href="">Login</a></li>
-        </ul>
+  <nav class="navbar">
+    <span class="navbar-toggle" id="js-navbar-toggle" onclick="displayMenu()">
+        <i class="fa fa-bars"></i>
+    </span>
+    <a href="index.html" class="logo">Lifelong</a>
+    <ul class="main-nav" id="js-menu">
+        <li>
+            <a href="..\features/features.html" class="nav-links">Features</a>
+        </li>
+        <li>
+            <a href="..\download/download.html" class="nav-links">Download</a>
+        </li>
+        <li>
+            <a href="..\blog/blog.html" class="nav-links">News & Updates</a>
+        </li>
+        <li>
+            <a href="..\privacy/privacy.html" class="nav-links">Privacy</a>
+        </li>
+        <li>
+            <a href="..\key_partners/key_partners.html" class="nav-links">Key Partners</a>
+        </li>
+        <li>
+          <a href="#" class="nav-links">Other</a>
       </li>
     </ul>
-  </div>
--->
+  </nav>
 
 <section id="intro">
   <h1>Lifelong</h1>

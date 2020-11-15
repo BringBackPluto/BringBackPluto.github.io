@@ -7,13 +7,12 @@
 }
 
 body {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .navbar {
-    font-size: 18px;
-    background-image: linear-gradient(blue, black);
-    border: 1px solid rgba(0, 0, 0, 0.2);
+    font-size: 19px;
+    background-color: transparent;
     padding-bottom: 10px;
 }
 
@@ -25,7 +24,7 @@ body {
 .nav-links,
 .logo {
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.7);
+    color: black;
 }
 
 .main-nav li {
@@ -45,7 +44,7 @@ body {
     top: 10px;
     right: 20px;
     cursor: pointer;
-    color: rgba(255, 255, 255, 0.8);
+    color: black;
     font-size: 24px;
 }
 
@@ -53,7 +52,7 @@ body {
     display: block;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1014px) {
     .navbar {
         display: flex;
         justify-content: space-between;
@@ -87,6 +86,6 @@ body {
 
     .logo:hover,
     .nav-links:hover {
-        color: rgba(255, 255, 255, 1);
+        color: rgb(148, 142, 142);
     }
 }

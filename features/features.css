@@ -31,6 +31,10 @@ body {
     margin: 30px 40px 0 40px;
 }
 
+#Recommendations p {
+    padding-top: 20px;
+}
+
 /* Description */
 
 .description ul{
