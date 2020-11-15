@@ -384,6 +384,8 @@ font-size: 13px;
   color: #e8f1f2;
   text-align: center;
   background-color: #050A10;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
 
@@ -662,3 +664,51 @@ font-size: 13px;
 .col2 {
   flex: .6; /* additionally, equal width */
 }
+
+.socials2 {
+  background-color: #00547A;
+  padding-bottom: 20px;
+  padding-top: 0px;
+  width: 20%;
+  float: left;
+  height: 90px;
+}
+
+.socials {
+  background-color: #00547A;
+  margin: 0px;
+  width: 100%;
+  height: fit-content;
+}
+
+.socials p{
+  background-color: #00547A;
+  color: white;
+  text-align: center;
+  margin: 0px;
+  padding-bottom: 0px;
+  padding-top: 10px;
+}
+
+
+.socials a:link {color:yellow;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.socials a:visited {
+  color: #b19cd5;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.socials a:hover {
+  color: darkorange;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.socials a:active {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
