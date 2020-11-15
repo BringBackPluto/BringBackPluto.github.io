@@ -15,18 +15,16 @@
   	color:black;
   	overflow-x: hidden;
 }
-.menubar {
-	z-index:1;
-}
 
 .initialstatement {
-	margin-top:5vh;
+	margin-top:3vh;
 }
 
 body {
 	margin-left:0%;
 	font-family: Verdana;
 	overflow-x: hidden;
+	background-color: #E8F1F2;
 }
 
 h1 {

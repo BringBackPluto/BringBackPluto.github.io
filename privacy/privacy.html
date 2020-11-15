@@ -15,29 +15,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
-<body onload="adjustHeight()">
-<div class="menubar">
-<ul>
- <li><a href="..\main/index.html"><div id="logo"><img id= "pic" src="..\Images/LL.png" width="18%" height=18% ></div></a></li>
- <li class="nav" id="feature"><a href="..\features/features.html">Features</a>
-  <ul>
-   <li><a href="">Feature 1</a></li>
-   <li><a href="">Feature 2</a></li>
-   <li><a href="">Feature 3</a></li>
-   <li><a href="">Feature 4</a></li>
-  </ul>
- </li>
- <li class="nav"><a href="..\download/download.html">Download</a></li>
- <li class="nav"><a href="..\blog/blog.html">News & Updates</a></li>
- <li class="nav"><a href="..\privacy/privacy.html">Privacy</a></li>
- <li class="nav"><a href="..\key_partners/key_partners.html">Key Partners</a></li>
- <li class="nav"><a href="#">Other</a>
-   <ul>
-   <li><a href="">FAQ & Contact-Us</a></li>
-   <li><a href="">Social media</a></li>
-   <li><a href="">Login</a></li>
-  </ul></li>
-</ul>
+<div id='nav'>
+  <nav class="navbar">
+    <span class="navbar-toggle" id="js-navbar-toggle" onclick="displayMenu()">
+        <i class="fa fa-bars"></i>
+    </span>
+    <a href="index.html" class="logo">Lifelong</a>
+    <ul class="main-nav" id="js-menu">
+        <li>
+            <a href="..\features/features.html" class="nav-links">Features</a>
+        </li>
+        <li>
+            <a href="..\download/download.html" class="nav-links">Download</a>
+        </li>
+        <li>
+            <a href="..\blog/blog.html" class="nav-links">News & Updates</a>
+        </li>
+        <li>
+            <a href="..\privacy/privacy.html" class="nav-links">Privacy</a>
+        </li>
+        <li>
+            <a href="..\key_partners/key_partners.html" class="nav-links">Key Partners</a>
+        </li>
+        <li>
+          <a href="#" class="nav-links">Other</a>
+      </li>
+    </ul>
+  </nav>
 </div>
 <div class="toppage">
 	<img src ="..\Images/Safe.jpg" alt="Safety" width = "100%" height="20%">
@@ -132,7 +136,7 @@
 			<div class="designdiv">
 				<h3>Providing personalized services</h3>
 				<p>
-					We use the information we collect to customize our services for you, including providing recommendations, personalized content, and customized search results. F
+					We use the information we collect to customize our services for you, including providing recommendations, personalized content, and customized search results. 
 
 					Depending on your settings, we may also show you personalized ads based on your interests. For example, if you search for “mountain bikes,” you may see an ad for sports equipment when you’re browsing a site that shows ads served by Google. You can control what information we use to show you ads by visiting your ad settings.
 				</p>
