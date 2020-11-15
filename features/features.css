@@ -109,7 +109,7 @@ ul.network{
 
 #intro {
     padding: 12em 0 10em 0;
-    background-image: url('../../images/blueaesthetic.jpg');
+    background-image: url('/Images/blueaesthetic.jpg');
     background-size: cover;
     background-position: top;
     background-attachment: fixed;
