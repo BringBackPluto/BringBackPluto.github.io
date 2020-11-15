@@ -19,9 +19,13 @@
 	z-index:1;
 }
 
+.initialstatement {
+	margin-top:5vh;
+}
+
 body {
 	margin-left:0%;
-	font-family: Courier;
+	font-family: Verdana;
 	overflow-x: hidden;
 }
 
