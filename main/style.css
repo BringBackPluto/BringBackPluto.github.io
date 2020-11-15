@@ -6,12 +6,17 @@
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
 
 .navbar {
     font-size: 19px;
     background-color: transparent;
     padding-bottom: 10px;
+}
+
+.navbar a{
+    color: black;
 }
 
 .main-nav {
