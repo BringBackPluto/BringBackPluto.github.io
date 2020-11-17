@@ -1,5 +1,5 @@
 Repository link: https://github.com/BringBackPluto/BringBackPluto.github.io
-Github page link: 
+Github page link: https://bringbackpluto.github.io/main/index.html
 
 Student names and numbers:
 Xiao Yan Liu 300200092: https://github.com/Liu-Xiao-Yan
@@ -10,6 +10,6 @@ Ethan Li 300207486 https://github.com/EthanLi123456789
 Tony Tam 300177186 https://github.com/TonyTam613
 
 
-Company name:
+Company name: Lifelong
 
 Product name and description: Lifelong
