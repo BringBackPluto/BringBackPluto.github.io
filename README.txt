@@ -1,5 +1,5 @@
 Repository link: https://github.com/BringBackPluto/BringBackPluto.github.io
-Github page link: https://github.com/BringBackPluto/BringBackPluto.github.io/blob/master/main/index.html
+Github page link: 
 
 Student names and numbers:
 Xiao Yan Liu 300200092: https://github.com/Liu-Xiao-Yan
