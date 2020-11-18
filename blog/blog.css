@@ -20,12 +20,12 @@ body{
 
 .postTitle{
     color: white;
-    font-size: 300%;
+    font-size: 3.2vw;
     margin: 2% 2% 1% 2%
 }
 
 h1.title{
-    font-size: 500%;
+    font-size: 4.3vw;
     text-align: left;
 }
 
@@ -35,8 +35,8 @@ h1.title{
 }
 
 small{
-    font-size: 80%;
+    font-size: 0.7vw;
 }
 p{
-    font-size: 150%;
+    font-size: 1.4vw;
 }
