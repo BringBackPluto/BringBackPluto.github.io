@@ -1,5 +1,18 @@
 // Emile Leonhardt
 
+function myFunction99() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+
+
+
+
+
 window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
 if (currentScrollPos > 80) {
