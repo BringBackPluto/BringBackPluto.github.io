@@ -1,11 +1,11 @@
 
 #rest {
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    overflow-x: hidden;
 }
 
 body {
@@ -21,15 +21,6 @@ body {
     color: black;
 }
 
-/* Prevents Horizontal Scrolling */
-.rest::-webkit-scrollbar {
-    display: none; /* Chrome, Safari */
-}
-
-.rest {
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
-  }
 
 /* Description and Features*/
 
@@ -55,7 +46,7 @@ body {
 }
 
 #full section p{
-	max-width: 600px;
+	max-width: 500px;
 	text-align: center;
 	margin-bottom: 35px;
 	padding: 0 20px;
@@ -67,7 +58,8 @@ ul.network{
     width: 100%;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: center;
+    justify-content: center;
+    margin-right: 70px;
 }
 
 .description{
@@ -76,7 +68,7 @@ ul.network{
 
 .description .network li{
 	padding: 0 20px;
-	flex-basis: 33%;
+	flex-basis: 35%;
 	text-align: center;
 }
 
@@ -87,7 +79,6 @@ ul.network{
 }
 
 .description .network li p{
-	margin: 0;
     padding-bottom: 50px;
     display: block;
 }
@@ -122,47 +113,34 @@ ul.network{
     #intro p {
         font-size: 1em;
         color:white;
-        margin-bottom: 1.75em;
+        margin-bottom: 2em;
     }
 
-	p {
-		margin: 0 0 2em 0;
-	}
-
     @media screen and (max-width: 1280px) {
-
         #intro {
             padding: 10em 2em 8em 2em;
         }
-
     }
 
     @media screen and (max-width: 980px) {
-
         #intro {
             background-attachment: scroll;
         }
-
     }
 
     @media screen and (max-width: 736px) {
-
         #intro {
             padding: 8em 1.5em 6em 1.5em;
         }
-
             #intro h1 {
                 font-size: 2.5em;
             }
-
             #intro p {
                 font-size: .9em;
             }
-
     }
 
     @media screen and (max-width: 480px) {
-
         #intro {
             padding: 6em 1.5em 4em 1.5em;
         }
@@ -173,6 +151,5 @@ ul.network{
         #intro {
             background-attachment: scroll;
         }
-
     }
 
