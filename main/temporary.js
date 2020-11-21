@@ -19,7 +19,7 @@ if (currentScrollPos > 80) {
 
 
 function moreabout() {
-  window.scrollTo(0,window.innerHeight+70)
+  window.scrollTo(0,window.innerHeight+69)
 }
 
 function initialscroll() {

@@ -2,10 +2,10 @@
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+    margin:0px;
 }
 
-.navbarclass {margin:0}
+.navbarclass {margin:0px}
 
 .topnav {
   overflow: hidden;
