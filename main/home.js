@@ -1,6 +1,9 @@
+
+
 // Emile Leonhardt
 
 
+// Moves the "scroll down" image off the screen when the user scrolls down
 window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
 if (currentScrollPos > 80) {
@@ -12,32 +15,33 @@ if (currentScrollPos > 80) {
   }
 }
 
-
+// Scrolls down when pressing on home page first button
 function moreabout() {
   window.scrollTo(0,window.innerHeight+49)
 }
 
-function initialscroll() {
-  window.scrollTo(0,40)
-}
-
+// Open page on button click
 function findoutabout() {
   window.open("../features/features.html" ,"_self");
 }
 
+// Open page on button click
 function findoutaboutp() {
   window.open("../key_partners/key_partners.html","_self");
 }
 
+// Open page on button click
 function downloadpage() {
   window.open("../download/download.html");
 }
 
+// Opens an email being sent to us
 function emailus(){
   var link = "mailto:eleon079@uOttawa.ca"
   ;
   window.location.href = link
 }
+
 
 var slideIndex = 1;
 showSlides(slideIndex);
@@ -52,6 +56,7 @@ function currentSlide(n) {
   showSlides(slideIndex = n);
 }
 
+// function to show the current slide
 function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");
