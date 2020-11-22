@@ -1,11 +1,14 @@
 /* Emile Leonhardt */
 
+#indexexp{
+}
 
+.potent1 {
+  transform: translate(0,-60vh);
+}
 
-
-
-
-
+.potent1 {
+}
 
 .h1image {
     filter: blur(0px);
@@ -23,10 +26,10 @@
   .h1text {
     text-align: center;
     position: absolute;
-    top: 50%;
+    bottom: 50%;
     left: 50%;
     font-size: 25px;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 50%);
     color: white;
     text-shadow: 2px 2px 5px black;
   }

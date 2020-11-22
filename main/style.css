@@ -12,6 +12,15 @@ body {
   background-color: #333;
 }
 
+#activepage {
+    background-color: #00547A;
+}
+
+#activepage:hover {
+    background-color: #0085b2;
+    color: white;
+}
+
 .topnav a {
   float: left;
   display: block;
