@@ -12,6 +12,7 @@
 
   gtag('config', 'G-3FZ1PQ1GL4');
 </script>
+<link rel="icon" href="..\images/LL.png">
  <title>Privacy</title>
  <link rel="stylesheet" type="text/css" href="..\main/style.css">
  <link rel="stylesheet" type="text/css" href="..\privacy/privacy.css">
@@ -26,12 +27,12 @@
 <body>
 <div class="navbarclass">
   <div class="topnav" id="myTopnav">
-    <a href="../main/index.html" style="background-color: #00547A;">Lifelong</a>
+    <a href="../main/index.html">Home</a>
     <a href="../features/features.html">Features</a>
     <a href="../download/download.html">Download</a>
     <a href="../blog/blog.html">News & Updates</a>
     <a href="../key_partners/key_partners.html">Key Partners</a>
-    <a href="../privacy/privacy.html">Privacy</a>
+    <a href="../privacy/privacy.html"id="activepage">Privacy</a>
     <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction99()">&#9776;</a>
   </div>
 </div>
@@ -81,35 +82,35 @@
 	Your information is also used to ensure our application is working as intended, such as tracking inconsistencies in our data analysis or troubleshooting issues that you report to us. We use your information to make improvements to our application — for example, understanding which sports are most enjoyed by people of various age groups terms helps us improve our activity recommendations on our application.
 </p>
 <div class ="div2">
-	<div class="Leftdiv1"><img src ="..\Images/City.png" alt="City" width = "100%" height="100%"></div>
-	<div class="Rightdiv1">
+	<div class="Leftdiv1"><img src ="..\Images/City.png" alt="City" width = "100%" height="100%">
+		<h3>
+			Test test test
+		</h3>
+	</div>
+	<div class="Rightdiv1" style="min-height:680px">
 		<h3>Help us better understand the types of data you are comfortable sharing by checking off the checkboxes that apply to you:</h3>
 		<p>I am comfortable sharing with Lifelong...</p>
-		<div>
-			<label for="myCheck">My age and sexuel orientation:</label>
+		<div id="d1">
+			<label for="myCheck">My age and sexual orientation:</label>
 			<input type="checkbox" id="myCheck" onclick="Displaystatistic1()">
-			<br>
 			<p id="text" style="display:none">80% of users agree</p>
 		</div>
-		<div>
+		<div id="d2">
 			<label for="myCheck2">My (general) location:</label>
 			<input type="checkbox" id="myCheck2" onclick="Displaystatistic2()">
-			<br>
 			<p id="text2" style="display:none">50% of users agree</p>
 		</div>
-		<div>
+		<div id="d3">
 			<label for="myCheck3">My interests and goals:</label>
 			<input type="checkbox" id="myCheck3" onclick="Displaystatistic3()">
-			<br>
 			<p id="text3" style="display:none">90% of users agree</p>
 		</div>
-		<div>
+		<div id="d4">
 			<label for="myCheck4">My opinions and emotions on daily activities:</label>
 			<input type="checkbox" id="myCheck4" onclick="Displaystatistic4()">
-			<br>
 			<p id="text4" style="display:none">45% of users agree</p>
 		</div>
-		<div>
+		<div id="d5">
 			<label for="myCheck5">My financial limits:</label>
 			<input type="checkbox" id="myCheck5" onclick="Displaystatistic5()">
 			<p id="text5" style="display:none">30% of users agree</p>
@@ -128,9 +129,7 @@
 			<div class="designdiv">
 				<h3>Providing personalized services</h3>
 				<p>
-					We use the information we collect to customize our services for you, including providing recommendations, personalized content, and customized search results. 
-
-					Depending on your settings, we may also show you personalized ads based on your interests. For example, if you search for “mountain bikes,” you may see an ad for sports equipment when you’re browsing a site that shows ads served by Google. You can control what information we use to show you ads by visiting your ad settings.
+					We use the information we collect to customize our services for you, including providing recommendations, personalized questionaires, and customized application qualities.
 				</p>
 			</div>
 		</div>
@@ -148,7 +147,57 @@
 	</div>
 </div>
 <hr>
-
-
+<h3>
+	Measuring our performance
+</h3>
+<p>
+	We use data for analytics and measurement to understand how our services are used. Understanding which features are used more and how they are used will help us optimize our product design.
+</p>
+<br>
+<div class="div2">
+	<div class="Leftdiv1">
+		<h3>
+			Communicating with you
+		</h3>
+		<p>
+			We use information we collect to help us interact with you directly. For example, we may send you notifications on when you should go visit your family and friends as well as when we detect that your account has been accessed from a questionable location. We may also inform you about changes and improvements to our services. If you contact us, we can keep a record of your request in order to help solve any issues you may be facing.
+		</p>
+		<h3>
+			Protecting Lifelong, our users and the public
+		</h3>
+		<p>
+			We use information we collect to help improve the safety and reliability of our services. This includes  detecting, preventing, and responding to fraud, abuse, security risks, and technical issues that could harm Lifelong, our users, or the public.
+	</div>
+	<div class = "Rightdiv1">
+		<center>
+			<img src="..\images/Communication.png" alt="Communication" style = "width:60%" style="max-height:50%">
+		</center>
+	</div>
+</div>
+<hr>
+<h3>
+	You always have control over what information we collect and how it's used
+</h3>
+<p>
+	You can always visit the activity controls of our application to chose what information we collect and what permissions are given in terms of the use of that information. If you want to have all the features of our application that come with personalized features without having your information being processed securely by our centralized systems, that's perfectly cool with us. Just visit the dashboard to manage the specific information disclosed by each activity and action you do.
+	You may also duplicate the information in your lifelong account so that you may export it for use outside our application. You can also request data from us that you may also use free of charge to analyze for any percieved issues you may have.
+</p>
+<br>
+<h3>
+	Sharing your information
+</h3>
+<p>
+	Many of our services allow you to share information with others. For example, when you chose to utilize our communications feature you can share the activities you do or keep it hidden from others. You can also share basic personality traits determined by our A.I. tests, though by making this information accessible, it becomes accessible to anybody in your friends circle.
+	We also do not share your personal information with the companies, organizations and any individuals outside of lifelong that we work with unless we recieve your consent to do so. 
+	It should be noted that the laws of certain governments require us to share certain types of data. You will, however, be informed of these requirements should you request it.
+</p>
+<center>
+	<img src="..\images/Key.jpg" alt="Secure" width="40%">
+</center>
+<h3>
+	Security is build into our application to protect your information
+</h3>
+<p>
+	Lifelong is built with the best security features to help protect your infomation. With so many types of services and features to maintain, we've gained a lot of experience detecting and blocking any security threat 
 </body>
 </html>
