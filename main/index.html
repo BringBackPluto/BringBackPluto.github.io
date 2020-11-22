@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 	<!--Emile Leonhardt-->
 <html lang="en">
-
+<!--
+  took off blue background from active page
+  added active id for active page,
+  changed Lifelong to home in nav bar
+  features page unalligned
+-->
 <head>
  <title>Home - Lifelong</title>
  <meta name="description" content="Parental Control App">
@@ -11,6 +16,7 @@
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
  <script src="temporary.js"></script>
  <script src="main.js"></script>
+ <link rel="icon" href="..\images/LL.png">
 	
  <meta charset="UTF-8">
     <meta name="description" content="Parental Control App">
@@ -23,7 +29,7 @@
 <body style="margin:0px", style="height: 100%;">
 <div class="navbarclass">
   <div class="topnav" id="myTopnav">
-    <a href="index.html" style="background-color: #00547A;">Lifelong</a>
+    <a href="index.html" id="activepage">Home</a>
     <a href="../features/features.html">Features</a>
     <a href="../download/download.html">Download</a>
     <a href="../blog/blog.html">News & Updates</a>
@@ -35,11 +41,13 @@
 
   <div style="background-color: #050505;">
   <div class="h1image"></div>
+  <div id="indexexp">
     <div class="h1text">
       <h1>Lifelong</h1>
       <p>Don't miss your next window of opportunity</p>
       <button onclick="moreabout()">Learn More</button>
     </div>
+  </div>
     <div id="scrollimg" class="scrollimage">
       <img src="../Images/mouse scroll down.png" alt="You can scroll down" style="width: 40px;">
     </div>
@@ -70,7 +78,7 @@
           </p>
         </div>
         <div>
-          <button onclick="findoutabout()">Find Out</button>
+          <button onclick="findoutabout()">View Features</button>
         </div>
       </div>
     </div>
@@ -84,7 +92,7 @@
           </p>
         </div>
         <div>
-          <button onclick="findoutaboutp()">Find Out</button>
+          <button onclick="findoutaboutp()">View Partners</button>
         </div>
       </div>
     </div>
@@ -106,12 +114,6 @@
     
     </div>
     <br>
-    
-    <!-- <div style="text-align:center; display:">
-      <span class="dot" onclick="currentSlide(1)"></span> 
-      <span class="dot" onclick="currentSlide(2)"></span> 
-      <span class="dot" onclick="currentSlide(3)"></span> 
-    </div> -->
   </div>
 
 
@@ -168,13 +170,17 @@
         </p>
           <div class="row33">
             <div class="side331">
-              <img src="../Images/emile.jpg">
+              <a href="https://www.linkedin.com/in/emileleonhardt" target="_blank">
+                <img src="../Images/emile.jpg">
+              </a>
               <p>
                 <span id="spannames">Emile Leonhardt</span>
                 <br>
                 <span id="jobdescs">Head of Technology</span>
               </p>
-              <img src="../Images/tony.jpg">
+              <a href="https://www.linkedin.com/in/tony-tam-5508a41ba/" target="_blank">
+                <img src="../Images/tony.jpg">
+              </a>
               <p>
                 <span id="spannames">Tony Tam</span>
                 <br>
@@ -182,14 +188,19 @@
               </p>
             </div>
             <div class="side332">
-              <img src="../Images/xiao.jpg">
+              <a href="https://www.linkedin.com/in/xiao-liu-6482b51bb/" target="_blank">
+                <img src="../Images/xiao.jpg">
+              </a>
               <p>
                 <span id="spannames">Xiao Yan Liu</span>
                 <br>
                 <span id="jobdescs">Head of Product</span>
               </p>
-              <img src="../Images/alfred.jpg">
+              <a href="https://www.linkedin.com/in/alfred-genadri-3375651b9/" target="_blank">
+                <img src="../Images/alfred.jpg">
+              </a>
               <p>
+                
                 <span id="spannames">Alfred Genadri</span>
                 <br>
                 <span id="jobdescs">Head of Marketing</span>
@@ -197,13 +208,17 @@
             </div>
               
             <div class="side333">
-              <img src="../Images/kian.PNG">
+              <a href="https://www.linkedin.com/in/kian-ashrafganjouei-7017371ba/" target="_blank">
+                <img src="../Images/kian.PNG">
+              </a>
               <p>
-                <span id="spannames">Kian Ashrafganjouei</span>                </span>
+                <span id="spannames">Kian Ashrafganjouei</span>
                 <br>
                 <span id="jobdescs">Head of Community</span>
               </p>
-              <img src="../Images/ethan.png">
+              <a href="https://github.com/EthanLi123456789" target="_blank">
+                <img src="../Images/ethan.png">
+              </a>
               <p>
                 <span id="spannames">Ethan Li</span>
                 <br>
@@ -324,27 +339,37 @@
   </p>
   <div class="socials2">
     <p>
-      <img src="../Images/insta.png" style="height: 60px;">
+      <a href="https://www.instagram.com" target="_blank">
+        <img src="../Images/insta.png" style="height: 60px;">
+      </a>
     </p>
   </div>
   <div class="socials2">
     <p>
-      <img src="../Images/twitter.png" style="height: 65px; transform: translate(0,-2px);">
+      <a href="https://www.twitter.com" target="_blank">
+        <img src="../Images/twitter.png" style="height: 65px; transform: translate(0,-2px);">
+      </a>
     </p>
   </div>
   <div class="socials2">
     <p>
-      <img src="../Images/youtube.png" style="height: 75px; transform: translate(0,-7px);">
+      <a href="https://www.youtube.com" target="_blank">
+        <img src="../Images/youtube.png" style="height: 75px; transform: translate(0,-7px);">
+      </a>
     </p>
   </div>
   <div class="socials2">
     <p>
-      <img src="../Images/facebook.png" style="height: 65px; transform: translate(0,-2px);">
+      <a href="https://www.facebook.com" target="_blank">
+        <img src="../Images/facebook.png" style="height: 65px; transform: translate(0,-2px);">
+      </a>
     </p>
   </div>
   <div class="socials2">
     <p>
-      <img src="../Images/pinterest.png" style="height: 60px;">
+      <a href="https://www.pinterest.com" target="_blank">
+        <img src="../Images/pinterest.png" style="height: 60px;">
+      </a>
     </p>
   </div>
 </div>

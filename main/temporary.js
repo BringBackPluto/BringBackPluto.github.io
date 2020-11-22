@@ -19,7 +19,7 @@ if (currentScrollPos > 80) {
 
 
 function moreabout() {
-  window.scrollTo(0,window.innerHeight+69)
+  window.scrollTo(0,window.innerHeight+49)
 }
 
 function initialscroll() {
@@ -27,11 +27,11 @@ function initialscroll() {
 }
 
 function findoutabout() {
-  window.open("../features/features.html");
+  window.open("../features/features.html" ,"_self");
 }
 
 function findoutaboutp() {
-  window.open("../key_partners/key_partners.html");
+  window.open("../key_partners/key_partners.html","_self");
 }
 
 function downloadpage() {
@@ -72,39 +72,3 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
-
-
-
-
-
-// Slideshow ----------------------------------
-
-    var slideIndex = 1;
-    showSlides(slideIndex);
-    
-    function plusSlides(n) {
-      showSlides(slideIndex += n);
-    }
-    
-    function currentSlide(n) {
-      showSlides(slideIndex = n);
-    }
-    
-    function showSlides(n) {
-      var i;
-      var slides = document.getElementsByClassName("mySlides");
-      var dots = document.getElementsByClassName("dot");
-      if (n > slides.length) {slideIndex = 1}    
-      if (n < 1) {slideIndex = slides.length}
-      for (i = 0; i < slides.length; i++) {
-          slides[i].style.display = "none";  
-      }
-      for (i = 0; i < dots.length; i++) {
-          dots[i].className = dots[i].className.replace(" active", "");
-      }
-      slides[slideIndex-1].style.display = "block";  
-      dots[slideIndex-1].className += " active";
-    }
-
-    // ----------------------------------------------------
-
