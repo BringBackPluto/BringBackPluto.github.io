@@ -81,7 +81,6 @@ ul.network{
 .description .network li p{
     padding-bottom: 50px;
     display: block;
-    margin: 5%;
 }
 
 .description img{
@@ -91,18 +90,20 @@ ul.network{
     
 }
 
+/* Adjusting the flexbox items when resolution increases */
+
 @media only screen and (min-width: 2048px) {
     .description .network li{
         flex-basis: 25%;
+    }
+    .description .network li p{
+        margin: 0 5%;
     }
 }
 
 @media only screen and (min-width: 2960px) {
     .description .network li{
         flex-basis: 20%;
-    }
-    .description .network li p{
-        margin: 5%;
     }
 }
 
