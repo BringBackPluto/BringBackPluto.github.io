@@ -1,11 +1,6 @@
 // Emile Leonhardt
 
 
-
-
-
-
-
 window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
 if (currentScrollPos > 80) {
