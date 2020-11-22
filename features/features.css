@@ -59,7 +59,6 @@ ul.network{
 	display: flex;
 	flex-wrap: wrap;
     justify-content: center;
-    margin-right: 70px;
 }
 
 .description{
@@ -90,6 +89,7 @@ ul.network{
     
 }
 
+/* Blue Background Pic, Title and Slogan*/
 
 #intro {
     padding: 12em 0 10em 0;
@@ -102,23 +102,24 @@ ul.network{
 }
 
     #intro h1 {
-        font-size: 3.5em;
+        font-size: 56px;
         font-weight: 100;
-        color: #fff;
-        line-height: 1em;
-        margin: 0 0 0.5em 0;
+        color: white;
+        line-height: 40px;
+        margin: 0 0 8px 0;
         padding: 0;
     }
 
     #intro p {
-        font-size: 1em;
+        font-size: 16px;
         color:white;
-        margin-bottom: 2em;
+        margin-bottom: 32px;
     }
+
 
     @media screen and (max-width: 1280px) {
         #intro {
-            padding: 10em 2em 8em 2em;
+            padding: 160px 32px 128px 32px;
         }
     }
 
@@ -130,10 +131,10 @@ ul.network{
 
     @media screen and (max-width: 736px) {
         #intro {
-            padding: 8em 1.5em 6em 1.5em;
+            padding: 128px 24px 96px 24px;
         }
             #intro h1 {
-                font-size: 2.5em;
+                font-size: 40px;
             }
             #intro p {
                 font-size: .9em;
@@ -142,12 +143,11 @@ ul.network{
 
     @media screen and (max-width: 480px) {
         #intro {
-            padding: 6em 1.5em 4em 1.5em;
+            padding: 96px 24px 64px 24px;
         }
     }
 
     @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-
         #intro {
             background-attachment: scroll;
         }
