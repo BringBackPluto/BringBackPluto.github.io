@@ -1,11 +1,11 @@
-.toppage {
+.toppage { /* The top translucent image */
 	width: 200vh;
 	position: relative;
 	margin: 0 auto;
 	overflow-x: hidden;
 }
 
-.toppage .toppagediv {
+.toppage .toppagediv { /* Making sure it goes right over the image, and with no margin issues */
 	position: absolute;
   	bottom: 0;
   	background: #00547A; 
@@ -20,7 +20,7 @@
 	margin-top:3vh;
 }
 
-body {
+body { /*Just some basic styles and margin stuff */
 	margin-left:0%;
 	font-family: Verdana;
 	overflow-x: hidden;
@@ -58,7 +58,7 @@ label {
 	margin-left:6%;
 }
 
-.div2 {
+.div2 { /*The next couple functions are for the basic split of the page */
 	width:100%;
 }
 
@@ -74,24 +74,22 @@ label {
 	margin-left:50%;
 }
 
-.design {
+.design { /*relatively similar code to the top page, this time with the split image with text content over it */
 	position: relative;
   	max-width: 85vh;
   	margin: 0 auto;
 }
 
-
-
 .design .designdiv {
 	position: absolute;
  	top: 0;
-  	background: rgb(0, 0, 0); /* Fallback color */
+  	background: rgb(0, 0, 0); 
  	background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
   	color: #f1f1f1;
   	width: 88%;
   	padding: 6%;
 }
 
-.design img{
+.design img{ /* Align the images in design classes to the middle */
 	vertical-align: middle;
 }

@@ -1,4 +1,4 @@
-function Displaystatistic1() {
+function Displaystatistic1() { //we needed to have 5 seperate functions as each function could only call on one checkbox, and we had to specify the individual classes for each one
   var checkBox = document.getElementById("myCheck");
   var text = document.getElementById("text");
   if (checkBox.checked == true){
