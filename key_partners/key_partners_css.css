@@ -1,8 +1,5 @@
-.clr {
-    clear: both;
-}
-
 .container {
+    /*This class is for each partner block and styles it accordingly*/
     border-radius: 20px;
     width: 100%;
     margin: auto;
@@ -12,6 +9,7 @@
 }
 
 #main {
+    /*This id is for the each partner logo and styles it accordingly*/
     float: left;
     width: 30%;
     box-sizing: border-box;
@@ -26,6 +24,7 @@
 }
 
 #sidebar {
+    /*This id is for the each partner text and styles it accordingly*/
     float: left;
     width: 85vw;
     color: #fff;
@@ -35,18 +34,21 @@
 }
 
 .topbar {
+    /*This c;ass is for the main image below the nav bar and styles it accordingly*/
     width: 70vw;
     height: 30vw;
     margin: 0 auto;
 }
 
 .page_title {
+    /*This class is for the main block below which contains the title "Key Partners" and styles it accordingly*/
     margin-left: 0%;
     color: white;
     text-align: center;
 }
 
 .partner_name {
+    /*This id is for the main block below which contains the title "Key Partners" and styles it accordingly*/
     margin-top: 3%;
     margin-left: 1%;
     font-family: Courier;
@@ -54,21 +56,15 @@
     margin-bottom: 0%;
 }
 
-.line_break {
-    width: 100%;
-    margin: auto;
-    overflow: hidden;
-    background-image: linear-gradient(to right, #00547A, #050A10);
-    padding: 10px;
-}
-
 #body1 {
+    /*This id is for The body that contains the blocks*/
     margin-left: 3%;
     margin-right: 3%;
     font-family: Verdana, sans-serif
 }
 
 .body {
+    /*This class is for The body that contains everything on the page*/
     margin-left: 0%;
     margin-top: 0%;
     margin-right: 0%;
